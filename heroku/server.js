@@ -9,8 +9,7 @@ corsProxy.createServer({
     originWhitelist: [
       'http://localhost:3000',
       'http://localhost:5000',
-      'https://www.loksangho.com',
-      'https://raw.githack.com'
+      'https://loksangho.com'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
