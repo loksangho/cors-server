@@ -10,6 +10,7 @@ corsProxy.createServer({
       'http://localhost:3000',
       'http://localhost:5000',
       'https://www.loksangho.com',
+      'https://raw.githack.com'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
